@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Meu Primeiro Formulário</legend>
+            <div><input type="text" name="nome" placeholder="Digite seu nome" /></div>
+            <div><input type="email" name="nome" placeholder="Digite seu e-mail" /></div>
+            <div>
+                <select name="Lista">
+                    <option disabled selected>Qual sua idade?</option>
+                    <option>-20</option>
+                    <option>+20</option>
+                    <option>+40</option>
+                    <option>+60</option>
+                </select>
+            </div>
+            <h2>Qual sua cidade?</h2>
+            <div class="input">
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>Florianópolis</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>São Paulo</span>
+                </div>
+                <div>
+                    <input type="radio" name="cidade" value="" /><span>Rio de Janeiro</span>
+                </div>
+            </div>
+            <!--radio-input-->
+
+            <h2>O que você gosta de comer?</h2>
+            <div class="input">
+                <div>
+                    <input type="checkbox" value="" /><span>Carne</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="" /><span>Frutas</span>
+                </div>
+                <div>
+                    <input type="checkbox" value="" /><span>Salada</span>
+                </div>
+            </div>
+            <!--checkbox-->
+            <div>
+                <textarea placeholder="Possui alguma observação?"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="acao" value="Enviar!">
+            </div>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
